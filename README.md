@@ -1,3 +1,12 @@
+# DESPLIEGUE
+Se ha desplegado la aplicación en una instancia Ubuntu 18.04. Se usa Nginx como servidor web y proxy inverso. Se ha instalado MongoDB y PM2 para mantener el proceso de la aplicación funcionando en todo momento.
+
+Para acceder a la aplicación he configurado el dominio ozonea.com (que redireccionará a www.ozonea.com).
+
+Los archivos estáticos de tipo imagen y hojas de estilos se sirven directamente sin pasar por Node, se puede ver en: http://www.ozonea.com/anuncios y en el inspector de cualquier hoja de estilo o imagen se puede ver la cabecera X-Owner: falces.
+
+La dirección IP de la instancia es 3.126.88.226. Si accedemos a esta dirección desde un navegador web accedemos a una plantilla Bootstrap de ejemplo.
+
 # NodePop
 
 [Demo](/anuncios) of the methods (this link works only if you run the project)
